@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="588.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hi.verkefni.vidmot.kubbar.KubburController">
+    <children>
+      <GridPane gridLinesVisible="true" layoutX="80.0" layoutY="135.0" prefHeight="318.0" prefWidth="332.0" AnchorPane.bottomAnchor="135.39999999999998" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="79.19999999999999" AnchorPane.topAnchor="135.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="127.0" minWidth="10.0" prefWidth="127.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="127.0" minWidth="10.0" prefWidth="127.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="154.20001220703125" minWidth="10.0" prefWidth="127.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Button fx:id="buttonOne" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" />
+            <Button fx:id="buttonTwo" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="1" />
+            <Button fx:id="buttonThree" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="2" />
+            <Button fx:id="buttonFour" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.rowIndex="1" />
+            <Button fx:id="buttonFive" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button fx:id="buttonSix" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button fx:id="buttonSeven" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.rowIndex="2" />
+            <Button fx:id="buttonEight" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button fx:id="buttonNine" mnemonicParsing="false" onAction="#onSetjaStykki" prefHeight="106.0" prefWidth="111.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Label fx:id="fxTexti" layoutX="233.0" layoutY="73.0" prefHeight="38.0" prefWidth="72.0" text="Veldu Tölu: " />
+      <TextField fx:id="fxTala" layoutX="305.0" layoutY="70.0" onAction="#onNyTala" prefHeight="45.0" prefWidth="104.0" />
+      <Label layoutX="206.0" layoutY="515.0" text="Stig: " />
+      <Label fx:id="stigLabel" layoutX="242.0" layoutY="515.0" text="0" />
+   </children>
+</AnchorPane>

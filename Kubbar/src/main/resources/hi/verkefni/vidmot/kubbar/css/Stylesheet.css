@@ -1,0 +1,57 @@
+#buttonOne {
+        -fx-background-image: url('myndir/Mynd1.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonTwo {
+        -fx-background-image: url('myndir/Mynd2.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonThree {
+        -fx-background-image: url('myndir/Mynd3.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonFour {
+        -fx-background-image: url('myndir/Mynd4.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonFive {
+        -fx-background-image: url('myndir/Mynd5.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonSix {
+        -fx-background-image: url('myndir/Mynd6.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonSeven {
+        -fx-background-image: url('myndir/Mynd7.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonEight {
+        -fx-background-image: url('myndir/Mynd8.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+#buttonNine {
+        -fx-background-image: url('myndir/Mynd9.png');
+        -fx-background-size: cover;
+        -fx-background-position: center center;
+        -fx-background-repeat: no-repeat;
+}
+.root {
+   -fx-background-color: #e6e6e6;
+}
