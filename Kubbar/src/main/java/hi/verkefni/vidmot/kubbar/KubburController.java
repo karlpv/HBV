@@ -47,7 +47,7 @@ public class KubburController {
         }
         uppfaeraStig();
 
-        System.out.println("Button clicked at row " + rowIndex + ", column " + columnIndex);
+        System.out.println("Row" + rowIndex + " column " + columnIndex);
     }
 
     private void stillaleikBord() {
