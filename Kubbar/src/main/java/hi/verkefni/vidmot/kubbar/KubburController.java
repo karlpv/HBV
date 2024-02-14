@@ -24,7 +24,7 @@ public class KubburController {
 
     @FXML
     private void initialize() {
-        upphafsstillLeikbord();
+        stillaleikBord();
     }
     @FXML
     private void onNyTala(ActionEvent event) {
@@ -50,7 +50,7 @@ public class KubburController {
         System.out.println("Button clicked at row " + rowIndex + ", column " + columnIndex);
     }
 
-    private void upphafsstillLeikbord() {
+    private void stillaleikBord() {
         kubbur.setupBoard();
         uppfaeraStig();
     }
