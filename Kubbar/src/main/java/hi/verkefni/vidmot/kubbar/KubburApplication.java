@@ -13,7 +13,7 @@ public class KubburApplication extends Application {
         FXMLLoader fxmlLoader = new FXMLLoader(KubburApplication.class.getResource("kubbur-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         scene.getStylesheets().add(getClass().getResource("/hi/verkefni/vidmot/kubbar/css/Stylesheet.css").toExternalForm()) ;
-        stage.setTitle("KUBBA LEIKUR (Ekki minecraft)");
+        stage.setTitle("Cube Game");
         stage.setScene(scene);
         stage.show();
     }

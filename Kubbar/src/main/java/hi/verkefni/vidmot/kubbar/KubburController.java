@@ -28,7 +28,7 @@ public class KubburController {
     }
     @FXML
     private void onNyTala(ActionEvent event) {
-        System.out.println("Innslegin tala: " + fxTala.getText());
+        System.out.println("Input: " + fxTala.getText());
         int tala = Integer.parseInt(fxTala.getText());
         kubbur.setValinTala(tala);
     }
@@ -51,7 +51,7 @@ public class KubburController {
     }
 
     private void upphafsstillLeikbord() {
-        kubbur.upphafsstillBord();
+        kubbur.setupBoard();
         uppfaeraStig();
     }
 

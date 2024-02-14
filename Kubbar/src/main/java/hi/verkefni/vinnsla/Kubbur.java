@@ -6,10 +6,10 @@ public class Kubbur {
     private int valinTala = 0;
 
     public Kubbur() {
-        upphafsstillBord();
+        setupBoard();
     }
 
-    public void upphafsstillBord() {
+    public void setupBoard() {
         int tala = 1;
         for (int i = 0; i < bord.length; i++) {
             for (int j = 0; j < bord[i].length; j++) {
