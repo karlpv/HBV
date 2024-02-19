@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -12,44 +11,39 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Button layoutX="255.0" layoutY="107.0" mnemonicParsing="false" text="Áskrifandi" />
-      <Label layoutX="255.0" layoutY="42.0" text="Home">
-         <font>
-            <Font name="Hack Regular" size="32.0" />
-         </font>
-      </Label>
-      <Label layoutX="529.0" layoutY="370.0" text="Karl P." />
-      <Label layoutX="214.0" layoutY="340.0" text="AUDIOPLAYER">
-         <font>
-            <Font name="Inconsolata Expanded ExtraBold" size="26.0" />
-         </font>
-      </Label>
-      <Button layoutX="80.0" layoutY="188.0" mnemonicParsing="false" text="Listi1" />
-      <Button layoutX="476.0" layoutY="212.0" mnemonicParsing="false" text="Listi2" />
-      <GridPane alignment="CENTER" gridLinesVisible="true" layoutX="163.0" layoutY="170.0" prefHeight="135.0" prefWidth="275.0" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="200.0">
-        <columnConstraints>
-          <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="136.0" />
-          <ColumnConstraints maxWidth="146.0" minWidth="0.0" prefWidth="138.0" />
-        </columnConstraints>
-        <rowConstraints>
-          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-        </rowConstraints>
+    <children>
+        <Label layoutX="262.0" layoutY="14.0" text="Home">
+            <font>
+                <Font name="Hack Regular" size="32.0" />
+            </font>
+        </Label>
+        <Button layoutX="262.0" layoutY="82.0" mnemonicParsing="false" text="Áskrifandi" AnchorPane.topAnchor="82.0" />
+        <Label layoutX="529.0" layoutY="370.0" text="Karl P." />
+
+        <GridPane layoutX="80.0" layoutY="135.0" prefHeight="318.0" prefWidth="332.0" AnchorPane.bottomAnchor="135.39999999999998" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="79.19999999999999" AnchorPane.topAnchor="135.0">
+            <columnConstraints>
+                <ColumnConstraints percentWidth="50" />
+                <ColumnConstraints percentWidth="50" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="300.0" vgrow="SOMETIMES" />
+            </rowConstraints>
          <children>
-            <ImageView fitHeight="135.0" fitWidth="135.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0">
-               <image>
-                  <Image url="@../../../css/1.jpg" />
-               </image>
-               <cursor>
-                  <Cursor fx:constant="DEFAULT" />
-               </cursor>
-            </ImageView>
+                <!-- ImageView for the left image -->
+                <ImageView blendMode="SRC_ATOP" fitHeight="140.0" fitWidth="135.0" preserveRatio="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <image>
+                        <Image url="@../../../css/1.jpg" />
+                    </image>
+                </ImageView>
+                <!-- ImageView for the right image -->
+                <ImageView fitHeight="135.0" fitWidth="135.0" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                    <image>
+                        <Image url="@../../../css/2.jpg" />
+                    </image>
+                </ImageView>
+            <Button blendMode="MULTIPLY" mnemonicParsing="false" prefHeight="135.0" prefWidth="135.0" text="LISTI1" textFill="WHITE" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button alignment="CENTER" blendMode="MULTIPLY" contentDisplay="CENTER" mnemonicParsing="false" nodeOrientation="LEFT_TO_RIGHT" prefHeight="135.0" prefWidth="135.0" text="Button" textFill="#ffffff00" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
          </children>
-      </GridPane>
-      <ImageView fitHeight="120.0" fitWidth="128.0" layoutX="356.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../css/2.jpg" />
-         </image>
-      </ImageView>
-   </children>
+        </GridPane>
+    </children>
 </AnchorPane>
